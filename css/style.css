@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background-color: blanchedalmond;
+  padding-top:50px;
+  padding-bottom:10px;
+
+}
+
+.container{
+    border:2px solid blue;
+    max-width:304px;
+    margin:0 auto;
+    display: grid;
+   
+    grid-template-rows:100px 100px 100px ;
+  grid-template-columns:100px 100px 100px;
+    
+    
+    
+
+
+}
+
+.container .item{
+    background-color: red;
+    border:1px solid black;
+    padding:15px;
+    
+
+    
+
+}
